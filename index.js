@@ -11,8 +11,11 @@
 
 // Part 1 answer 👇🏻 ...
 
-
-
+let name = " Abdulrahman Alkandari ";
+let yearOfBirth = "1994";
+let hobby = "Playing Oud";
+let funFact = "In the jungle ? The mighthy jungle ? the lion sleeps tonight!";
+const image = `https://avatarfiles.alphacoders.com/212/212311.png`
 
 
 
@@ -29,12 +32,9 @@
  * You can uncomment a line by removing the // at the start
  */
 
-// const fullNameString = `My name is ${}`;
-// const yearOfBirthString =
-// const hobbyString =
-
-
-
+const fullNameString = `My name is${name}`;
+const yearOfBirthString = `I am ${2021-yearOfBirth}`
+const hobbyString =` And my hobby is ${hobby}`
 
 /**
  * Part 3: Re-assignment
@@ -45,14 +45,18 @@ let stars = 0;
 
 function incrementBy1() {
   // Increment stars by 1 👇🏻
+  stars+=1;
 }
 function decrementBy1() {
   // decrement stars by 1 👇🏻
+  stars-=1;
 }
 
 function incrementBy2() {
   // Increment stars by 2 👇🏻
+  stars+=2;
 }
 function decrementBy2() {
   // decrement stars by 2 👇🏻
+  stars-=2;
 }
